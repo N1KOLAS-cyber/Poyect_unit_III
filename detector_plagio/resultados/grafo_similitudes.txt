@@ -1,0 +1,11 @@
+🔗 Conexiones significativas (grafo textual):
+doc_18.txt --(100.00%)--> (externo) texto1.txt
+doc_24.txt --(100.00%)--> (externo) texto1.txt
+doc_24.txt --(100.00%)--> doc_18.txt
+doc_30.txt --(100.00%)--> (externo) texto1.txt
+doc_30.txt --(100.00%)--> doc_18.txt
+doc_30.txt --(100.00%)--> doc_24.txt
+doc_31.txt --(100.00%)--> (externo) texto1.txt
+doc_31.txt --(100.00%)--> doc_18.txt
+doc_31.txt --(100.00%)--> doc_24.txt
+doc_31.txt --(100.00%)--> doc_30.txt
