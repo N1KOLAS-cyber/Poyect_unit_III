@@ -1,5 +1,5 @@
 import random
-from detector_plagio.src.config import palabras_base
+from .config import CARPETA_DOCS, palabras_base
 
 def similitud_aproximada(bf1, bf2, muestras=100):
     interseccion = 0
