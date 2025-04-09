@@ -1,0 +1,30 @@
+Las dependencias que requeremos para este codigo son 
+
+# - os: para manejar rutas y archivos
+# - hashlib: para generar hashes de n-gramas
+# - random: para generar documentos aleatorios
+# - collections: para usar defaultdict
+# - networkx: para crear y visualizar grafos
+# - matplotlib: para visualizar los grafos
+# - src.config: para cargar configuraciones y palabras base
+# - osm: para cargar documentos externos (si es necesario)
+
+import os
+from src.config import CARPETA_DOCS, CARPETA_EXTERNOS  # Importar CARPETA_DOCS desde config.py
+from collections import defaultdict
+import hashlib
+
+#para la generacion de documentos
+import random
+from .config import CARPETA_DOCS, palabras_base
+import os
+
+
+# Para la visualización de grafos
+import os
+import networkx as nx
+import matplotlib.pyplot as plt
+
+#similitud aproximada
+import random
+from .config import CARPETA_DOCS, palabras_base

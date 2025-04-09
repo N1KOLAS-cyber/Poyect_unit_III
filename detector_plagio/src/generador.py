@@ -1,6 +1,5 @@
 import random
 from .config import CARPETA_DOCS, palabras_base
-
 import os
 
 def generar_documentos(num_docs=20, palabras_por_doc=300):
